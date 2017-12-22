@@ -15,7 +15,7 @@ CACHE_CONTROL = "max-age=30"
 # X_EXPOSE_HEADERS = ['Content-Type']
 # XML, JSON = True, False
 X_DOMAINS = "*"
-X_HEADERS = ['Content-Type', 'If-Match']  # Needed for the "Try it out" buttons
+X_HEADERS = ['Content-Type', 'If-Match']  # Needed for the "Try it out" buttons / CORS
 
 DOMAIN = {
     # Resource `/models`
